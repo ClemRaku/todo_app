@@ -1,17 +1,15 @@
-# todo_app
+# Flutter ToDo App
 
-A new Flutter project.
+## About
 
-## Getting Started
+This is my very first Flutter application! I am currently learning Flutter development and building this app to practice core concepts.
 
-This project is a starting point for a Flutter application.
+## Introduction
 
-A few resources to get you started if this is your first Flutter project:
+A basic ToDo list app built with Flutter. It helps track daily tasks with a clean and simple interface.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Learning Goals
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Understand Flutter widget tree.
+- Manage app state.
+- Build responsive UIs.
