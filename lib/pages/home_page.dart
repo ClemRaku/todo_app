@@ -23,6 +23,15 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  createNewTask() {
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog();
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,6 +39,12 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('To Do'),
         backgroundColor: const Color.fromARGB(255, 247, 222, 5),
+      ),
+
+      //floating action button
+      floatingActionButton: FloatingActionButton(
+        onPressed: createNewTask,
+        child: Icon(Icons.add),
       ),
 
       body: ListView.builder(
